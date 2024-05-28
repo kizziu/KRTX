@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    list-style: none;
+    text-decoration: none;
+}
+.hero3{
+    height: 100%;
+    width: 100%;
+    min-height: 80vh;
+    background: #4d4559;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.hero3-text {
+    margin-left: -25%;
+    text-align: left;
+}
+.hero3-text h1{
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 80px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 30px;
+}
+.hero3-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.hero3-text a{
+    display: inline-block;
+    color: white;
+    background: #af2b2b;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    font-size: 1.4;
+    font-weight: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transform: all .55s ease;
+}
+.hero3-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+.hero3-text1 {
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 9px;
+}

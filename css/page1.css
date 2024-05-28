@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    list-style: none;
+    text-decoration: none;
+}
+.hero{
+    height: 83vh;
+    width: 100%;
+    background: linear-gradient(59.29deg, #4d4559 44%, transparent 28.53%, transparent 50.52%);
+    min-height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text {
+    margin-left: -20%;
+    margin-top: 10%;
+    text-align: left;
+}
+.hero-text h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.hero-text h1{
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 48px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 30px;
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 3px;
+}
+.hero-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #af2b2b;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    font-size: 1.4;
+    font-weight: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transform: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+}
